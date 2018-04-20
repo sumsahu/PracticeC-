@@ -15,6 +15,7 @@ int main(int argc, char* argv[])
 	char buf[BUF_SIZE];
 		
 	ssize_t numRead;
+	//Reading data from standard input
 	while((numRead=read(STDIN_FILENO,buf,BUF_SIZE)) > 0)
 	{
 		if(write(connFd,buf,numRead) != numRead)
