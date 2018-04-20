@@ -2,8 +2,8 @@
 
 CXX=g++
 APPLICATION=clientapp
-DIR_SOCKET=/home/sumsahu/Documents/Programming/git/nokia_git/EmbeddedSoftware/ECLI/
-DIR_DEMO_ESW=/home/sumsahu/Documents/Programming/git/nokia_git/EmbeddedSoftware/demo_esw/
+DIR_SOCKET=/home/sumsahu/Documents/Programming/git/repository/PracticeCpp/EmbeddedSoftware/ECLI/
+DIR_DEMO_ESW=/home/sumsahu/Documents/Programming/git/repository/PracticeCpp/EmbeddedSoftware/demo_esw/
 LDFLAGS=-L$(DIR_SOCKET)/build
 CFLAGS=-Wall \
 		-c \
