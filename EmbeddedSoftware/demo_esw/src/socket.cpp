@@ -113,6 +113,7 @@ namespace esw
          freeaddrinfo(rp);
 		 return connFd; 
      }
+	//Accept incoming request
 	 int socketHandle::acceptRequest(const int sockfd)
 	 {
 		int connFd;
