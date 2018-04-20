@@ -1,7 +1,8 @@
 
 #Declarations of variables
 APPLICATION=socketapp
-DIR_SOCKET=/home/sumsahu/Documents/Programming/git/repository/PracticeCpp/EmbeddedSoftware/demo_esw/
+#DIR_SOCKET=/home/sumsahu/Documents/Programming/git/repository/PracticeCpp/EmbeddedSoftware/demo_esw/
+DIR_SOCKET=../
 LDFLAGS=-L$(DIR_SOCKET)/build
 CXX=g++
 CFLAGS=-Wall \
